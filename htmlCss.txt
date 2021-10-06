@@ -1,0 +1,135 @@
+1.列举出html行内元素、块状元素、行内块状元素，并说明区别？
+
+行内元素：<span> <a> <br>
+
+  特点：1、设置宽高无效；    
+            2、对margin仅设置左右方向有效，上下无效； padding设置上下左右都有效，但是会撑大空间；
+            3、不会自动进行换行。
+
+块状元素：<div> <p> <h1-h6> <ol-li> <ul-li> <table>
+
+  特点：1、能够识别宽高
+　　　  2、margin和padding的上下左右均对其有效
+　　  　3、可以自动换行
+　　　  4、多个块状元素标签写在一起，默认排列方式为从上至下。
+
+行内块状元素：<img> <input> <td>
+
+   特点：1、不自动换行
+　　　   2、能够识别宽高
+　　　   3、默认排列方式为从左到右
+
+三种元素可以互相转换：
+       display:inline;转换为行内元素
+　　display:block;转换为块状元素
+　　display:inline-block;转换为行内块状元素
+
+2.列举出文本样式有哪些？
+
+颜色：color
+字体大小：font-size
+文本装饰：text-decoration
+字体粗细：font-weight
+字体类型：font-family
+字体倾斜：font-style
+水平对齐方式：text-align
+垂直对齐方式：vertical-align
+行高：line-height
+字距：letter-spacing
+词距：word-spacing
+缩进：text-indent
+
+3.css引入（使用）方式都有哪些，并说明优缺点？
+
+一、行间样式引入
+      优点：①不会产生额外的请求
+      
+      缺点：①容易产生重复的代码，造成文档的体积变大
+                ②不利于维护
+                ③不符合结构与央视分离的规范
+
+二、内部样式引入
+      优点：①不会产生额外的请求
+
+      缺点：①初步实现结构与样式的分离
+                ②代码复用不方便
+                ③只适合单页面网站应用
+
+三、外部样式引入
+       优点：①利于维护
+                 ②可以重复使用
+                 ③完全实现结构与样式的分离
+       缺点：①会产生额外的请求
+
+4.列举出css的选择器，并按优先级别排列？
+
+     类选择器 、 id选择器 、标签选择器
+
+    !important > 行内样式 > id选择器 > 类选择器 > 标签选择器
+
+5.float属性清除浮动的方式都有哪些？
+     ①为父元素添加overflow:hidden（不推荐）
+     ②浮动父元素（不推荐）
+     ③额外标签法：使用clear:both在所有浮动元素下方添加一个该属性，可以消除float的破坏性，但会增加不必要的标签（不常用）
+     ④使用after伪对象清除浮动（推荐）（display:block;clear:both）
+     ⑤使用空标签清除浮动如<div>、<br>等
+     ⑥利用BFC(block formatting context)清除浮动
+             注：BFC环境触发条件
+                     <html>根元素；
+                     float值不为none；
+                     overflow的值为auto、scroll或hidden；
+                     display的值为table-cell、table-caption、inline-block中的任意一个；
+                     position的值不为relative和static。
+
+6.盒模型都包含了哪些css属性？
+     长宽：width ，height
+     边框：border,border-top,border-bottom,border-left,border-right；
+               border-radius，border-top-left,border-top-right,border-bottom-left,border-bottom-right,
+     外边距：margin，margin-top,margin-bottom,margin-left,margin-right
+     内边距：padding，padding-left,padding-bottom,padding-right;padding-top;
+
+
+7.列举出css的长度单位（例如：px），并说明区别及使用场景？
+   
+   px：px是固定像素，一旦设置了就无法因为适应页面而改变。
+   rem：相对根元素(html)的长度单位
+   em：相对父元素的长度单位
+
+    对于只需要适配少部分手机设备，且分辨率对页面影响不大的，使用px即可 。
+    对于需要适配各种移动设备，使用rem，例如只需要适配iPhone和iPad等分辨率差别比较挺大的设备。
+
+8.jpg，png图片类型的区别，该如何选择？
+     区别：①.jpg是有损压缩；.png是无损压缩
+               ②.png支持透明度
+     如何选择：
+                .png：①图像上颜色较少，并且主要以纯色或者平滑的渐变色进行填充
+                           ②具备较大亮度差异以及强烈对比的简单图像
+                 .jpg：①对于写实的摄影图像或是颜色层次非常丰富的图像采用JPG的图片格式保存一般能达到最佳的压缩效果。
+                           ②在页面中使用的商品图片、采用人像或者实物素材制作的广告Banner等图像更适合采用JPG的图片格式保存。
+
+9.如何用css做出三角形，写出核心代码？
+
+  <!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <style type="text/css">
+        .triangle{
+            width: 0px;                           
+            height: 0px;
+            border-bottom: 20px solid #00a3af;
+            border-left: 20px solid transparent;   
+            border-right: 20px solid transparent;
+        }
+    </style>
+</head>
+<body>
+    <div class="triangle"></div>
+</body>
+</html>
+
+10.什么是重绘和回流（浏览器绘制过程）？
+
+         重绘: 当渲染树中的一些元素需要更新属性，而这些属性只是影响元素的外观、风格，而不会影响布局的操作，比如 background-color，我们将这样的操作称为重绘。
+
+         回流：当渲染树中的一部分（或全部）因为元素的规模尺寸、布局、隐藏等改变而需要重新构建的操作，会影响到布局的操作，这样的操作我们称为回流
