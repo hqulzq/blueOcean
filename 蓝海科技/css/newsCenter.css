@@ -1,0 +1,79 @@
+.newsCenter {}
+
+.newsCenter .nC_Text1,
+.newsCenter .nC_Text2 {
+	position: absolute;
+	width: 100%;
+
+}
+
+.newsCenter .nC_Text1 {
+
+	margin-top: 1.1rem;
+	text-align: center;
+	font-size: 0.55rem;
+}
+
+.newsCenter .nC_Text2 {
+	margin-top: 1.9rem;
+	text-align: center;
+	font-size: 0.33rem;
+}
+
+.newsCenter .nC_Img {
+	width: 7.5rem;
+	height: 6.90rem;
+}
+
+.allNews .aN_Title {
+	height: 1.95rem;
+	line-height: 1.95rem;
+	vertical-align: middle;
+	font-size: 0.3rem;
+	padding-left: 4.75rem;
+}
+
+.allNews .aN_Title img {
+	position: absolute;
+	width: 0.2rem;
+	height: 0.3rem;
+	margin-top: 0.85rem;
+	margin-left: 0.3rem;
+}
+
+.allNews .aN_content {
+	height: 4.45rem;
+	width: 6.5rem;
+	margin-left: 0.54rem;
+	border-bottom: 0.02rem solid rgb(233, 233, 233);
+}
+
+.allNews .aN_content img {
+	padding-top: 0.4rem;
+	height: 2.5rem;
+	width: 6.5rem;
+
+}
+
+.allNews .aN_content .aN_content_Text {
+	font-size: 0.3rem;
+	margin-top: 0.4rem;
+}
+
+.allNews .moreNews {
+	height: 1.75rem;
+	width: 100%;
+}
+
+.allNews .moreNews input {
+	margin-top: 0.5rem;
+	margin-left: 2.7rem;
+	outline: none;
+	border-radius: 0.1rem;
+	border: 0.02rem solid rgb(168,171,183);
+	text-align: center;
+	width: 2.1rem;
+	height: 0.7rem;
+	font-size: 0.3rem;
+	color: rgb(168,171,183);
+}

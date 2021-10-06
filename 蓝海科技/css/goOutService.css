@@ -1,0 +1,102 @@
+.topArea{
+	width: 100%;
+	height: 6.9rem;
+}
+.topArea img{
+	width: 100%;
+	height: 100%;
+}
+.topArea .text1,.topArea .text2{
+	width: 100%;
+	text-align: center;
+	position: absolute;
+}
+.topArea .text1{
+	margin-top: 1.1rem;
+	font-size: 0.5rem;
+}
+.topArea .text2{
+	margin-top: 1.9rem;
+	font-size: 0.3rem;
+}
+.topArea .btn{
+	position: absolute;
+	margin-top: 2.75rem;
+	margin-left: 2.7rem;
+}
+
+.topArea .btn .useIt {
+	width: 2.1rem;
+	height: 0.9rem;
+	box-shadow: 0.03125rem 0.03125rem 0.0625rem rgb(160, 194, 251);
+	font-size: 0.35rem;
+	text-align: center;
+	vertical-align: middle;
+	border: none;
+	border-radius: 0.125rem;
+	outline: none;
+	background-color: rgb(66, 135, 255);
+	color: aliceblue;
+}
+.textArea{
+	margin-left: 0.6rem;
+	height: 4.65rem;
+	width: 6.35rem;
+}
+.textArea .tA_text1{
+	position: absolute;
+	margin-top: 0.93rem;
+	font-size: 0.35rem;
+}
+.textArea .tA_text2{
+	width: 6.35rem;
+	position: absolute;
+	line-height: 0.45rem;
+	margin-top: 1.65rem;
+	font-size: 0.25rem;
+}
+.flex_text{
+	display: flex;
+	flex-wrap: wrap;
+	position: absolute;
+	height: 9.20rem;
+	width: 100%;
+	color: white;
+}
+.flex_text .box{
+	width: 50%;
+	height: 50%;
+}
+.flex_text .box .box_text1{
+	font-size: 0.4rem;
+	margin-top: 0.6rem;
+	margin-left: 0.35rem;
+}
+.flex_text .box .box_text2{
+	font-size: 0.32rem;
+	margin-top: 0.15rem;
+	margin-left: 0.35rem;
+}
+.pic_Area{
+	height: 9.20rem;
+	width: 100%;
+}.pic_Area img{
+	width: 50%;
+	height: 50%;
+	float: left;
+}
+.swieprArea{
+	width: 7.5rem;
+	height: 10.2rem;
+}
+.swieprArea .title{
+	padding-top: 0.92rem;
+	padding-left: 0.62rem;
+}
+.swieprArea .title .swiperTitle1{
+	font-size: 0.4rem;
+}
+.swieprArea .title .swiperTitle2{
+	font-size: 0.3rem;
+	color: rgb(141,145,158);
+}

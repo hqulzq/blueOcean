@@ -1,0 +1,139 @@
+.topArea{
+	width: 100%;
+	height: 6.9rem;
+}
+.topArea img{
+	width: 100%;
+	height: 100%;
+}
+.topArea .text1,.topArea .text2{
+	width: 100%;
+	text-align: center;
+	position: absolute;
+}
+.topArea .text1{
+	margin-top: 1.1rem;
+	font-size: 0.5rem;
+}
+.topArea .text2{
+	margin-top: 1.9rem;
+	font-size: 0.3rem;
+}
+.topArea .btn{
+	position: absolute;
+	margin-top: 2.75rem;
+	margin-left: 2.7rem;
+}
+
+.topArea .btn .useIt {
+	width: 2.1rem;
+	height: 0.9rem;
+	box-shadow: 0.03125rem 0.03125rem 0.0625rem rgb(160, 194, 251);
+	font-size: 0.35rem;
+	text-align: center;
+	vertical-align: middle;
+	border: none;
+	border-radius: 0.125rem;
+	outline: none;
+	background-color: rgb(66, 135, 255);
+	color: aliceblue;
+}
+
+.overCity{
+	width: 7.5rem;
+	height: 9.8rem;
+	border-bottom: 0.2rem solid rgb(231,232,233) ;
+}
+.overCity .title{
+	padding-top: 0.92rem;
+	padding-left: 0.62rem;
+	font-size: 0.4rem;
+}
+.overCity .title .title_Text1{
+	font-size: 0.4rem;
+}
+.overCity .title .title_Text2{
+	margin-top: 0.26rem;
+	color: rgb(141,145,158);
+	font-size: 0.3rem;
+}
+.overCity .mainContent{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 6.3rem;
+	height: 6.1rem;
+	margin-left: 0.6rem;
+	margin-top: 0.75rem;
+}
+.overCity .mainContent .contentPic{
+	width: 2.8rem;
+	height: 2.8rem;
+}
+.overCity .mainContent .contentPic img{
+	width: 2.8rem;
+	height: 2.8rem;
+}
+.overCity .mainContent .contentText{
+	width: 2.8rem;
+	height: 2.8rem;
+}
+.overCity .mainContent .contentText .flexText1{
+	padding-top: 0.7rem;
+	font-weight: bold;
+	font-size: 0.3rem;
+}
+.overCity .mainContent .contentText .flexText2{
+	padding-top: 0.25rem;
+	width: 2.5rem;
+	font-size: 0.25rem;
+	font-weight: bold;
+}
+.itemRange{
+	width: 100%;
+	height: 7.65rem;
+}
+.itemRange .title{
+	padding-top: 0.9rem;
+	padding-left: 0.62rem;
+	font-size: 0.4rem;
+}
+.itemRange .title .title_Text1{
+	font-size: 0.4rem;
+}
+.itemRange .title .title_Text2{
+	margin-top: 0.25rem;
+	color: rgb(141,145,158);
+	font-size: 0.3rem;
+}
+.itemRange .itemFlex{
+	margin-top: 0.75rem;
+	margin-left: 0.9rem;
+	width: 5.5rem;
+	height: 1.3rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.itemRange .itemFlex .flexContent{
+	width: 1.1rem;
+	height: 1.3rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	text-align: center;
+}
+.itemRange .itemFlex .flexContent .flexPic{
+	width: 1.1rem;
+	height: 0.7rem;
+}
+.itemRange .itemFlex .flexContent .flexPic img{
+	max-width: 0.9rem;
+	max-height: 0.7rem;
+/* 	width: 0.65rem;
+	height: 0.7rem; */
+}
+.itemRange .itemFlex .flexContent .flexText{
+	font-weight: bold;
+	font-size: 0.25rem;
+}

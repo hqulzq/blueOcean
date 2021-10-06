@@ -1,0 +1,270 @@
+.textArea {
+	text-align: center;
+	line-height: 0.5rem;
+	width: 100%;
+	font-size: 0;
+	position: absolute;
+	margin-top: 1.7rem;
+}
+
+.textArea1,
+.textArea2 {
+	font-size: 0.7rem;
+	font-weight: 500;
+}
+
+.textArea1 {
+	color: rgb(255, 159, 0);
+}
+
+.textArea3 {
+	font-size: 0.3rem;
+	font-weight: 30;
+	
+}
+
+.btn {
+	
+	position: absolute;
+	margin-top: 3.5rem;
+	margin-left: 2.67rem;
+	
+}
+
+.btn .useIt {
+	width: 2.1rem;
+	height: 0.9rem;
+	box-shadow: 0.03125rem 0.03125rem 0.0625rem rgb(160, 194, 251);
+	font-size: 0.35rem;
+	text-align: center;
+	vertical-align: middle;
+	border: none;
+	border-radius: 0.125rem;
+	outline: none;
+	background-color: rgb(66, 135, 255);
+	color: aliceblue;
+}
+
+.useIt:hover {
+	/* color: red; */
+}
+
+.content_Img1 {
+	width: 7.5rem;
+	height: 10.1rem;
+}
+
+.show {
+	font-size: 0.2rem;
+	margin-top: 6.875rem;
+	margin-left: 2.5%;
+	color: #F0F8FF;
+	width: 95%;
+	height: 3rem;
+	position: absolute;
+	background-color: rgba(59, 128, 246, 0.9);
+	border-radius: 0.1625rem;
+}
+
+.show .num {
+	padding-left: 0.6rem;
+	font-size: 0.4rem;
+}
+
+.show .commonText1 {
+	font-size: 0.3rem;
+}
+
+.show .commonText2 {
+	padding-left: 0.6rem;
+	font-size: 0.25rem;
+	color: rgb(217, 229, 250);
+}
+
+.tabImg1,
+.tabImg2 {
+	position: absolute;
+	margin-top: 8.875rem;
+	margin-left: 50%;
+	width: 0.04rem;
+	height: 0.54rem;
+}
+
+.tabImg2 {
+	margin-top: 7.375rem;
+}
+
+.news {
+	margin-top: 0.6rem;
+}
+.news .newsHead{
+	font-size: 0.2rem;
+}
+.news .newsHead .newsText1 {
+
+	margin-left: 0.3rem;
+	font-size: 0.45rem;
+}
+
+.news .newsHead .newsText2 {
+	margin-left: 3.9rem;
+	font-size: 0.33rem;
+}
+
+.news .newsHead .newsImg1 {
+	position: absolute;
+	margin-top: 0.25rem;
+	margin-left: 0.17rem;
+	width: 0.20rem;
+	height: 0.30rem;
+}
+
+.news .newsHead .newsText3 {
+	margin-left: 0.3rem;
+	color: rgb(138, 142, 156);
+	font-size: 0.27rem;
+}
+
+.news .content_Img2 {
+	margin-top: 0.45rem;
+	margin-left: 0.28rem;
+	width: 6.9rem;
+	height: 3rem ;
+}
+
+.news .newsContent {
+	padding-top: 0.5rem;
+	font-size: 0.33rem;
+	margin-left: 0.28rem;
+	width: 95%;
+	height: 1.9rem;
+	border-bottom: 0.0125rem solid rgb(238, 238, 238);
+}
+
+.news .newsContent .newsContentText {
+	font-size: 0.33rem;
+}
+
+.news .newsContent .newsTime {
+	color: rgb(160, 164, 175);
+	font-size: 0.2rem;
+}
+
+.travel {
+	font-size: 0;
+	background-color: rgb(231, 232, 233);
+	width: 100%;
+	height: 8.25rem;
+}
+
+.travel .travel_Text1 {
+	font-size: 0.5rem;
+	color: white;
+	position: absolute;
+	margin-top: 0.7rem;
+	margin-left: 0.3rem;
+}
+
+.travel .travel_Text2 {
+	font-size: 0.12rem;
+	color: white;
+	position: absolute;
+	margin-top: 1.5rem;
+	margin-left: 0.3rem;
+}
+
+.travel .useIt2 {
+	margin-top: 2.25rem;
+	margin-left: 0.3rem;
+	position: absolute;
+	width: 2.84rem;
+	height: 0.8rem;
+	font-weight: 500;
+	font-size: 0.3rem;
+	text-align: center;
+	vertical-align: middle;
+	border: none;
+	border-radius: 0.075rem;
+	outline: none;
+	background-color: rgb(66, 135, 255);
+	color: white;
+}
+
+
+.travel .travel_Img1 {
+	margin-top: 0.2rem;
+	width: 100%;
+	height: 3.48rem;
+}
+
+.travel table {
+	height: 4.35rem;
+	width: 100%;
+	position: absolute;
+}
+
+.travel table span {
+	padding-left: 0.2rem;
+
+}
+
+.travel table img {
+	padding-left: 0.45rem;
+	width: 0.55rem;
+	height: 0.65rem;
+}
+
+.travel .tra_Text3 {
+	font-size: 0.3rem;
+}
+
+.travel .tra_Text4 {
+	font-size: 0.12rem;
+}
+
+.safe {
+	font-size: 0.3125rem;
+	margin-top: 0.4125rem;
+}
+
+.safe .safe_TextArea span:nth-child(1) {
+	margin-left: 0.25rem;
+	font-size: 0.45rem;
+}
+
+.safe .safe_TextArea span:nth-child(3) {
+	margin-left: 0.25rem;
+	font-size: 0.35rem;
+	font-weight: 100;
+	color: rgb(160, 163, 175);
+}
+
+.safe .safe_PicArea {
+	margin-top: 0.3125rem;
+}
+
+.safe .safe_PicArea img {
+	margin-top: 0.10rem;
+	width: 100%;
+	height: 3rem;
+}
+
+.safe .safe_Pic_Text {
+	width: 85%;
+	margin-left: 0.3rem;
+	position: absolute;
+}
+
+.safe .safe_Pic_Text .commonText1 {
+	position: absolute;
+	color: white;
+	font-size: 0.3rem;
+	margin-left: 0.2125rem;
+}
+
+.safe .safe_Pic_Text .commonText2 {
+	position: absolute;
+	color: white;
+	font-size: 0.27rem;
+	margin-left: 0.2125rem;
+}

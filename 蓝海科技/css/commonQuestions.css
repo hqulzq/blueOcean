@@ -1,0 +1,70 @@
+.questions{
+	height: 8.5rem;
+	width: 100%;
+}
+.questions .ask{
+	display: flex;
+	justify-content: space-between;
+	width: 6.65rem;
+	margin-left: 0.4rem;
+	margin-top: 0.48rem;
+}
+.questions .ask .ask_button{
+	width: 0.76rem;
+	height: 0.9rem;
+	line-height: 0.9rem;
+	vertical-align: middle;
+}
+.questions .ask .ask_button input{
+		background-color: rgb(64,70,82);
+		
+}
+.questions .ask .ask_button input,
+.questions .answer .answer_button input {
+	font-size: 0.35rem;
+	color: white;
+	text-align: center;
+	width: 0.76rem;
+	height: 0.76rem;
+	outline: none;
+	border-radius: 0.1rem;
+	border: none;
+	line-height: 0.76rem;
+	vertical-align: middle;
+}
+.questions .ask .ask_Text{
+	width: 5.65rem;
+	letter-spacing: 0.02rem;
+	height: 0.9rem;
+	font-weight: bold;
+	font-size: 0.35rem;
+}
+.questions .answer{
+	display: flex;
+	font-size: 0.25rem;
+}
+
+.questions .answer{
+	display: flex;
+	justify-content: space-between;
+	width: 6.65rem;
+	margin-left: 0.4rem;
+	margin-top: 0.76rem;
+}
+.questions .answer .answer_button{
+	width: 0.76rem;
+	height: 0.9rem;
+	line-height: 0.9rem;
+	vertical-align: middle;
+}
+.questions .answer .answer_button input{
+	background-color: rgb(66,135,255);
+}
+.questions .answer .answer_Text{
+	font-size: 0.25rem;
+	color: rgb(140,144,158);
+	font-weight: bold;
+	line-height: 0.435rem;
+	vertical-align: middle;
+	width: 5.65rem;
+}
